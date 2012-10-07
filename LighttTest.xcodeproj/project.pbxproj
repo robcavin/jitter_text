@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED65BCE1621F14B0079DF65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65BCD1621F14B0079DF65 /* UIKit.framework */; };
+		CED65BD01621F14B0079DF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65BCF1621F14B0079DF65 /* Foundation.framework */; };
+		CED65BD21621F14B0079DF65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65BD11621F14B0079DF65 /* CoreGraphics.framework */; };
+		CED65BD81621F14C0079DF65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED65BD61621F14C0079DF65 /* InfoPlist.strings */; };
+		CED65BDA1621F14C0079DF65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED65BD91621F14C0079DF65 /* main.m */; };
+		CED65BDE1621F14E0079DF65 /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED65BDD1621F14E0079DF65 /* LTAppDelegate.m */; };
+		CED65BE11621F14E0079DF65 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED65BDF1621F14E0079DF65 /* MainStoryboard.storyboard */; };
+		CED65BE41621F14F0079DF65 /* LTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED65BE31621F14F0079DF65 /* LTFirstViewController.m */; };
+		CED65BE61621F14F0079DF65 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CED65BE51621F14F0079DF65 /* first.png */; };
+		CED65BE81621F14F0079DF65 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED65BE71621F14F0079DF65 /* first@2x.png */; };
+		CED65BEB1621F1520079DF65 /* LTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED65BEA1621F1520079DF65 /* LTSecondViewController.m */; };
+		CED65BED1621F1520079DF65 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CED65BEC1621F1520079DF65 /* second.png */; };
+		CED65BEF1621F1520079DF65 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED65BEE1621F1520079DF65 /* second@2x.png */; };
+		CED65BF71621F1520079DF65 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65BF61621F1520079DF65 /* SenTestingKit.framework */; };
+		CED65BF81621F1520079DF65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65BCD1621F14B0079DF65 /* UIKit.framework */; };
+		CED65BF91621F1520079DF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65BCF1621F14B0079DF65 /* Foundation.framework */; };
+		CED65C011621F1520079DF65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED65BFF1621F1520079DF65 /* InfoPlist.strings */; };
+		CED65C041621F1520079DF65 /* LighttTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED65C031621F1520079DF65 /* LighttTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED65BFA1621F1520079DF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED65BC01621F14A0079DF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED65BC81621F14B0079DF65;
+			remoteInfo = LighttTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED65BC91621F14B0079DF65 /* LighttTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighttTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED65BCD1621F14B0079DF65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CED65BCF1621F14B0079DF65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CED65BD11621F14B0079DF65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CED65BD51621F14B0079DF65 /* LighttTest-Info.plist */ = {isa = PBXFileReference; path = "LighttTest-Info.plist"; sourceTree = "<group>"; };
+		CED65BD71621F14C0079DF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CED65BD91621F14C0079DF65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED65BDB1621F14C0079DF65 /* LighttTest-Prefix.pch */ = {isa = PBXFileReference; path = "LighttTest-Prefix.pch"; sourceTree = "<group>"; };
+		CED65BDC1621F14D0079DF65 /* LTAppDelegate.h */ = {isa = PBXFileReference; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		CED65BDD1621F14E0079DF65 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		CED65BE01621F14E0079DF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CED65BE21621F14F0079DF65 /* LTFirstViewController.h */ = {isa = PBXFileReference; path = LTFirstViewController.h; sourceTree = "<group>"; };
+		CED65BE31621F14F0079DF65 /* LTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFirstViewController.m; sourceTree = "<group>"; };
+		CED65BE51621F14F0079DF65 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CED65BE71621F14F0079DF65 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CED65BE91621F1500079DF65 /* LTSecondViewController.h */ = {isa = PBXFileReference; path = LTSecondViewController.h; sourceTree = "<group>"; };
+		CED65BEA1621F1520079DF65 /* LTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSecondViewController.m; sourceTree = "<group>"; };
+		CED65BEC1621F1520079DF65 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CED65BEE1621F1520079DF65 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CED65BF51621F1520079DF65 /* LighttTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighttTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED65BF61621F1520079DF65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CED65BFE1621F1520079DF65 /* LighttTestTests-Info.plist */ = {isa = PBXFileReference; path = "LighttTestTests-Info.plist"; sourceTree = "<group>"; };
+		CED65C001621F1520079DF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CED65C021621F1520079DF65 /* LighttTestTests.h */ = {isa = PBXFileReference; path = LighttTestTests.h; sourceTree = "<group>"; };
+		CED65C031621F1520079DF65 /* LighttTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighttTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED65BC61621F14B0079DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED65BCE1621F14B0079DF65 /* UIKit.framework in Frameworks */,
+				CED65BD01621F14B0079DF65 /* Foundation.framework in Frameworks */,
+				CED65BD21621F14B0079DF65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED65BF11621F1520079DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED65BF71621F1520079DF65 /* SenTestingKit.framework in Frameworks */,
+				CED65BF81621F1520079DF65 /* UIKit.framework in Frameworks */,
+				CED65BF91621F1520079DF65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED65BBE1621F14A0079DF65 = {
+			isa = PBXGroup;
+			children = (
+				CED65BD31621F14B0079DF65 /* LighttTest */,
+				CED65BFC1621F1520079DF65 /* LighttTestTests */,
+				CED65BCC1621F14B0079DF65 /* Frameworks */,
+				CED65BCA1621F14B0079DF65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED65BCA1621F14B0079DF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED65BC91621F14B0079DF65 /* LighttTest.app */,
+				CED65BF51621F1520079DF65 /* LighttTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED65BCC1621F14B0079DF65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED65BCD1621F14B0079DF65 /* UIKit.framework */,
+				CED65BCF1621F14B0079DF65 /* Foundation.framework */,
+				CED65BD11621F14B0079DF65 /* CoreGraphics.framework */,
+				CED65BF61621F1520079DF65 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED65BD31621F14B0079DF65 /* LighttTest */ = {
+			isa = PBXGroup;
+			children = (
+				CED65BDC1621F14D0079DF65 /* LTAppDelegate.h */,
+				CED65BDD1621F14E0079DF65 /* LTAppDelegate.m */,
+				CED65BDF1621F14E0079DF65 /* MainStoryboard.storyboard */,
+				CED65BE21621F14F0079DF65 /* LTFirstViewController.h */,
+				CED65BE31621F14F0079DF65 /* LTFirstViewController.m */,
+				CED65BE51621F14F0079DF65 /* first.png */,
+				CED65BE71621F14F0079DF65 /* first@2x.png */,
+				CED65BE91621F1500079DF65 /* LTSecondViewController.h */,
+				CED65BEA1621F1520079DF65 /* LTSecondViewController.m */,
+				CED65BEC1621F1520079DF65 /* second.png */,
+				CED65BEE1621F1520079DF65 /* second@2x.png */,
+				CED65BD41621F14B0079DF65 /* Supporting Files */,
+			);
+			path = LighttTest;
+			sourceTree = "<group>";
+		};
+		CED65BD41621F14B0079DF65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED65BD51621F14B0079DF65 /* LighttTest-Info.plist */,
+				CED65BD61621F14C0079DF65 /* InfoPlist.strings */,
+				CED65BD91621F14C0079DF65 /* main.m */,
+				CED65BDB1621F14C0079DF65 /* LighttTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED65BFC1621F1520079DF65 /* LighttTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED65C021621F1520079DF65 /* LighttTestTests.h */,
+				CED65C031621F1520079DF65 /* LighttTestTests.m */,
+				CED65BFD1621F1520079DF65 /* Supporting Files */,
+			);
+			path = LighttTestTests;
+			sourceTree = "<group>";
+		};
+		CED65BFD1621F1520079DF65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED65BFE1621F1520079DF65 /* LighttTestTests-Info.plist */,
+				CED65BFF1621F1520079DF65 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED65BC81621F14B0079DF65 /* LighttTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED65C071621F1520079DF65 /* Build configuration list for PBXNativeTarget "LighttTest" */;
+			buildPhases = (
+				CED65BC51621F14B0079DF65 /* Sources */,
+				CED65BC61621F14B0079DF65 /* Frameworks */,
+				CED65BC71621F14B0079DF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LighttTest;
+			productName = LighttTest;
+			productReference = CED65BC91621F14B0079DF65 /* LighttTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED65BF41621F1520079DF65 /* LighttTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED65C0A1621F1520079DF65 /* Build configuration list for PBXNativeTarget "LighttTestTests" */;
+			buildPhases = (
+				CED65BF01621F1520079DF65 /* Sources */,
+				CED65BF11621F1520079DF65 /* Frameworks */,
+				CED65BF21621F1520079DF65 /* Resources */,
+				CED65BF31621F1520079DF65 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED65BFB1621F1520079DF65 /* PBXTargetDependency */,
+			);
+			name = LighttTestTests;
+			productName = LighttTestTests;
+			productReference = CED65BF51621F1520079DF65 /* LighttTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED65BC01621F14A0079DF65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CED65BC31621F14A0079DF65 /* Build configuration list for PBXProject "LighttTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CED65BBE1621F14A0079DF65;
+			productRefGroup = CED65BCA1621F14B0079DF65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED65BC81621F14B0079DF65 /* LighttTest */,
+				CED65BF41621F1520079DF65 /* LighttTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED65BC71621F14B0079DF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED65BD81621F14C0079DF65 /* InfoPlist.strings in Resources */,
+				CED65BE11621F14E0079DF65 /* MainStoryboard.storyboard in Resources */,
+				CED65BE61621F14F0079DF65 /* first.png in Resources */,
+				CED65BE81621F14F0079DF65 /* first@2x.png in Resources */,
+				CED65BED1621F1520079DF65 /* second.png in Resources */,
+				CED65BEF1621F1520079DF65 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED65BF21621F1520079DF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED65C011621F1520079DF65 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CED65BF31621F1520079DF65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED65BC51621F14B0079DF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED65BDA1621F14C0079DF65 /* main.m in Sources */,
+				CED65BDE1621F14E0079DF65 /* LTAppDelegate.m in Sources */,
+				CED65BE41621F14F0079DF65 /* LTFirstViewController.m in Sources */,
+				CED65BEB1621F1520079DF65 /* LTSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED65BF01621F1520079DF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED65C041621F1520079DF65 /* LighttTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED65BFB1621F1520079DF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED65BC81621F14B0079DF65 /* LighttTest */;
+			targetProxy = CED65BFA1621F1520079DF65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED65BD61621F14C0079DF65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED65BD71621F14C0079DF65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CED65BDF1621F14E0079DF65 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED65BE01621F14E0079DF65 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CED65BFF1621F1520079DF65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED65C001621F1520079DF65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED65C051621F1520079DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CED65C061621F1520079DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED65C081621F1520079DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LighttTest/LighttTest-Prefix.pch";
+				INFOPLIST_FILE = "LighttTest/LighttTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CED65C091621F1520079DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LighttTest/LighttTest-Prefix.pch";
+				INFOPLIST_FILE = "LighttTest/LighttTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CED65C0B1621F1520079DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LighttTest.app/LighttTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LighttTest/LighttTest-Prefix.pch";
+				INFOPLIST_FILE = "LighttTestTests/LighttTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CED65C0C1621F1520079DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LighttTest.app/LighttTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LighttTest/LighttTest-Prefix.pch";
+				INFOPLIST_FILE = "LighttTestTests/LighttTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED65BC31621F14A0079DF65 /* Build configuration list for PBXProject "LighttTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED65C051621F1520079DF65 /* Debug */,
+				CED65C061621F1520079DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED65C071621F1520079DF65 /* Build configuration list for PBXNativeTarget "LighttTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED65C081621F1520079DF65 /* Debug */,
+				CED65C091621F1520079DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED65C0A1621F1520079DF65 /* Build configuration list for PBXNativeTarget "LighttTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED65C0B1621F1520079DF65 /* Debug */,
+				CED65C0C1621F1520079DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED65BC01621F14A0079DF65 /* Project object */;
+}
