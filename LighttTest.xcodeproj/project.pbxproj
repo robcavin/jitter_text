@@ -25,6 +25,11 @@
 		CED65BF91621F1520079DF65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65BCF1621F14B0079DF65 /* Foundation.framework */; };
 		CED65C011621F1520079DF65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED65BFF1621F1520079DF65 /* InfoPlist.strings */; };
 		CED65C041621F1520079DF65 /* LighttTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED65C031621F1520079DF65 /* LighttTestTests.m */; };
+		CED65C0E1621F1F80079DF65 /* base_ui.png in Resources */ = {isa = PBXBuildFile; fileRef = CED65C0D1621F1F80079DF65 /* base_ui.png */; };
+		CED65C141621FB8B0079DF65 /* PPETRIAL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED65C131621FB8B0079DF65 /* PPETRIAL.ttf */; };
+		CED65C171621FD120079DF65 /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED65C161621FD120079DF65 /* paper.jpg */; };
+		CED65C181621FE720079DF65 /* PPETRIAL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED65C131621FB8B0079DF65 /* PPETRIAL.ttf */; };
+		CED65C1E162201EE0079DF65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED65C1D162201EE0079DF65 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,27 +47,31 @@
 		CED65BCD1621F14B0079DF65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CED65BCF1621F14B0079DF65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CED65BD11621F14B0079DF65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CED65BD51621F14B0079DF65 /* LighttTest-Info.plist */ = {isa = PBXFileReference; path = "LighttTest-Info.plist"; sourceTree = "<group>"; };
+		CED65BD51621F14B0079DF65 /* LighttTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LighttTest-Info.plist"; sourceTree = "<group>"; };
 		CED65BD71621F14C0079DF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CED65BD91621F14C0079DF65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CED65BDB1621F14C0079DF65 /* LighttTest-Prefix.pch */ = {isa = PBXFileReference; path = "LighttTest-Prefix.pch"; sourceTree = "<group>"; };
-		CED65BDC1621F14D0079DF65 /* LTAppDelegate.h */ = {isa = PBXFileReference; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		CED65BDB1621F14C0079DF65 /* LighttTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LighttTest-Prefix.pch"; sourceTree = "<group>"; };
+		CED65BDC1621F14D0079DF65 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
 		CED65BDD1621F14E0079DF65 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
 		CED65BE01621F14E0079DF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CED65BE21621F14F0079DF65 /* LTFirstViewController.h */ = {isa = PBXFileReference; path = LTFirstViewController.h; sourceTree = "<group>"; };
+		CED65BE21621F14F0079DF65 /* LTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTFirstViewController.h; sourceTree = "<group>"; };
 		CED65BE31621F14F0079DF65 /* LTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFirstViewController.m; sourceTree = "<group>"; };
 		CED65BE51621F14F0079DF65 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		CED65BE71621F14F0079DF65 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		CED65BE91621F1500079DF65 /* LTSecondViewController.h */ = {isa = PBXFileReference; path = LTSecondViewController.h; sourceTree = "<group>"; };
+		CED65BE91621F1500079DF65 /* LTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTSecondViewController.h; sourceTree = "<group>"; };
 		CED65BEA1621F1520079DF65 /* LTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSecondViewController.m; sourceTree = "<group>"; };
 		CED65BEC1621F1520079DF65 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		CED65BEE1621F1520079DF65 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		CED65BF51621F1520079DF65 /* LighttTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighttTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED65BF61621F1520079DF65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CED65BFE1621F1520079DF65 /* LighttTestTests-Info.plist */ = {isa = PBXFileReference; path = "LighttTestTests-Info.plist"; sourceTree = "<group>"; };
+		CED65BFE1621F1520079DF65 /* LighttTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LighttTestTests-Info.plist"; sourceTree = "<group>"; };
 		CED65C001621F1520079DF65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CED65C021621F1520079DF65 /* LighttTestTests.h */ = {isa = PBXFileReference; path = LighttTestTests.h; sourceTree = "<group>"; };
+		CED65C021621F1520079DF65 /* LighttTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LighttTestTests.h; sourceTree = "<group>"; };
 		CED65C031621F1520079DF65 /* LighttTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighttTestTests.m; sourceTree = "<group>"; };
+		CED65C0D1621F1F80079DF65 /* base_ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base_ui.png; sourceTree = "<group>"; };
+		CED65C131621FB8B0079DF65 /* PPETRIAL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PPETRIAL.ttf; sourceTree = "<group>"; };
+		CED65C161621FD120079DF65 /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
+		CED65C1D162201EE0079DF65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED65C1E162201EE0079DF65 /* QuartzCore.framework in Frameworks */,
 				CED65BCE1621F14B0079DF65 /* UIKit.framework in Frameworks */,
 				CED65BD01621F14B0079DF65 /* Foundation.framework in Frameworks */,
 				CED65BD21621F14B0079DF65 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +102,7 @@
 		CED65BBE1621F14A0079DF65 = {
 			isa = PBXGroup;
 			children = (
+				CED65C1D162201EE0079DF65 /* QuartzCore.framework */,
 				CED65BD31621F14B0079DF65 /* LighttTest */,
 				CED65BFC1621F1520079DF65 /* LighttTestTests */,
 				CED65BCC1621F14B0079DF65 /* Frameworks */,
@@ -133,6 +144,9 @@
 				CED65BEA1621F1520079DF65 /* LTSecondViewController.m */,
 				CED65BEC1621F1520079DF65 /* second.png */,
 				CED65BEE1621F1520079DF65 /* second@2x.png */,
+				CED65C0D1621F1F80079DF65 /* base_ui.png */,
+				CED65C131621FB8B0079DF65 /* PPETRIAL.ttf */,
+				CED65C161621FD120079DF65 /* paper.jpg */,
 				CED65BD41621F14B0079DF65 /* Supporting Files */,
 			);
 			path = LighttTest;
@@ -239,12 +253,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED65C181621FE720079DF65 /* PPETRIAL.ttf in Resources */,
 				CED65BD81621F14C0079DF65 /* InfoPlist.strings in Resources */,
 				CED65BE11621F14E0079DF65 /* MainStoryboard.storyboard in Resources */,
 				CED65BE61621F14F0079DF65 /* first.png in Resources */,
 				CED65BE81621F14F0079DF65 /* first@2x.png in Resources */,
 				CED65BED1621F1520079DF65 /* second.png in Resources */,
 				CED65BEF1621F1520079DF65 /* second@2x.png in Resources */,
+				CED65C0E1621F1F80079DF65 /* base_ui.png in Resources */,
+				CED65C171621FD120079DF65 /* paper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED65C011621F1520079DF65 /* InfoPlist.strings in Resources */,
+				CED65C141621FB8B0079DF65 /* PPETRIAL.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +470,7 @@
 				CED65C091621F1520079DF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED65C0A1621F1520079DF65 /* Build configuration list for PBXNativeTarget "LighttTestTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +479,7 @@
 				CED65C0C1621F1520079DF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

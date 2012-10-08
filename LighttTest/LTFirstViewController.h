@@ -10,4 +10,7 @@
 
 @interface LTFirstViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIImageView* overlayImage;
+@property (nonatomic, strong) IBOutlet UILabel* overlayText;
+
 @end
